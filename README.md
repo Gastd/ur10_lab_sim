@@ -48,7 +48,7 @@ ros2 launch ur10_lab_sim ur_sim_control.launch.py world_file:=worlds/empty.sdf
 The `src` folder contains Python scripts to control the robot:
 - **`random_goal.py`**: Moves the robot to a random joint configuration.
 - **`scan.py`**: Moves the robot through a predefined set of joint configurations to scan an object.
-- **`scan_fixed_positions.py`**: Demonstrates moving the robot to fixed positions.
+<!-- - **`scan_fixed_positions.py`**: Demonstrates moving the robot to fixed positions. -->
 
 To run an example script, use:
 ```bash
